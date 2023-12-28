@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.PhoneInputInput {
+  height: 40px !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.ant-btn-cstm {
+  background-color: #f43334 !important;
+  outline: none !important ;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  color: white;
+}
+
+.ant-btn-cstm:hover {
+  background-color: #f43334 !important;
+  color: white;
+}
+
+.ant-btn-cstm-reg {
+  background-color: #f43334 !important;
+  outline: none !important ;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.ant-btn-cstm-reg:hover {
+  background-color: #f43334 !important;
+  color: white !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-btn-cstm-project_1 {
+  background-color: #f43334 !important;
+  outline: none !important ;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: white;
+  width: 100px;
+  align-self: flex-end;
+}
+
+.ant-btn-cstm-project_2 {
+  background-color: #f43334 !important;
+  outline: none !important ;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  color: white;
+  margin-bottom: 5px;
+  width: 200px;
+  
+}
+
+.ant-btn-cstm-project_2:hover {
+  color: white;
+}
+
+.custom-ok-button {
+  background-color: red !important;
+  color: white;
+  margin-top: 5px;
+}
+
+/* .custom-select {
+  height: 40px !important;
+  background-color: #f43334;
+} */
+
+/* .custom-select select {
+  height: 40px;
+} */
+
+.custom-timepicker-dropdown button {
+  background-color: red;
+}
+
+.custom-timepicker-dropdown button:hover {
+  background-color: red !important;
+ 
+}
+
+.timepicker-ui-footer{
+  background-color: white;
+  margin-bottom: 0px !important;
+  height: 100px !important;
+  display: flex;
+  align-items: center;
+}
+

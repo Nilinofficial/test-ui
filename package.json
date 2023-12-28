@@ -1,0 +1,53 @@
+{
+  "name": "matterbay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@stripe/react-stripe-js": "^2.3.1",
+    "@stripe/stripe-js": "^2.1.7",
+    "@types/node": "20.5.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "antd": "^5.8.4",
+    "antd-input-otp": "^1.1.1",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.10",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "free-email-domains": "^1.2.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "13.4.19",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-cookie": "^6.1.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.1",
+    "react-hook-form-antd": "^0.0.2",
+    "react-hot-toast": "^2.4.1",
+    "react-phone-number-input": "^3.3.6",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.1.2",
+    "react-select": "^5.7.5",
+    "react-spinners": "^0.13.8",
+    "stripe": "^13.8.0",
+    "tailwindcss": "3.3.3",
+    "timepicker-ui": "^2.6.1",
+    "typescript": "5.2.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "prettier": "^3.0.3"
+  }
+}
