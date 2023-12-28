@@ -40,6 +40,10 @@
   }
 
 
+  .ant-table-tbody > tr.ant-table-row:hover > td {
+    background: none !important;
+} 
+
   
 .ant-table-tbody a{
 color: black;
