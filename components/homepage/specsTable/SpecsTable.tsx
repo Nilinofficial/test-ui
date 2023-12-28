@@ -221,8 +221,8 @@ href={{
         columns={columns}
         dataSource={data}
         pagination={false}
-        // className="border-2 rounded-md"
-        className='time-table-row-select'
+        className="border-2 rounded-md"
+    
       />
     </div>
   );

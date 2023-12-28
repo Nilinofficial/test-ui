@@ -33,9 +33,7 @@
     background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
   }
 
-  .ant-table-wrapper .ant-table-thead >tr>td:hover {
-    background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
-  }
+
 
   .ant-table-wrapper .ant-table-thead >tr>th {
     background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
