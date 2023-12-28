@@ -24,14 +24,25 @@
     background-color: rgb(241 245 249 / var(--tw-bg-opacity));
   }
 
-  :where(.css-dev-only-do-not-override-17a39f8).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-17a39f8).ant-table-wrapper .ant-table-thead >tr>td {
+  /* .ant-table-tbody .ant-table-row  .ant-table-wrapper .ant-table-thead >tr>th, .ant-table-wrapper .ant-table-thead >tr>td {
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
+  } */
+
+
+  .ant-table-wrapper .ant-table-thead >tr>td {
     background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
   }
 
-  :where(.css-dev-only-do-not-override-17a39f8).ant-table-wrapper .ant-table-tbody >tr >td.ant-table-cell-row-hover {
-    background: none !important;
-}
+  .ant-table-wrapper .ant-table-thead >tr>td:hover {
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
+  }
 
-:where(.css-dev-only-do-not-override-17a39f8) a{
+  .ant-table-wrapper .ant-table-thead >tr>th {
+    background-color: rgb(241 245 249 / var(--tw-bg-opacity)) !important;
+  }
+
+
+  
+.ant-table-tbody a{
 color: black;
 }

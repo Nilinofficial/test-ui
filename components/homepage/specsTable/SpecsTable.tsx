@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 const FeatureStatusIndicator = ({ status }: { status: boolean }) => (
-  <div className="w-full flex justify-center">
+  <div className="w-full flex justify-center  ">
     {status ? (
       <CheckIcon className="w-6 h-6 self-center text-green-700" />
     ) : (
@@ -84,7 +84,7 @@ export const SpecsTable = () => {
       dataIndex: "name",
       key: "name",
       render: (text: string) => <a>{text}</a>,
-      className: "w-1/4  text-lg",
+      className: "w-1/4  text-lg  ",
     },
     {
       title: "Basic",
@@ -92,7 +92,7 @@ export const SpecsTable = () => {
       dataIndex: "basic",
       key: "basic",
       align: "center",
-      className: "border-l-1 border border-r-0 border-t-0 border-b-0",
+      className: "border-l-1 border border-r-0 border-t-0 border-b-0  ",
       render: (basic: any, record: RowType) => {
         if (record.key === "7") {
           return (
@@ -221,7 +221,8 @@ href={{
         columns={columns}
         dataSource={data}
         pagination={false}
-        className="border-2 rounded-md"
+        // className="border-2 rounded-md"
+        className='time-table-row-select'
       />
     </div>
   );
